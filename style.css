@@ -77,9 +77,13 @@ button {
  #linkedin {
      font-size: 40px;
      margin-top: -15px;
-     
-
  }
+
+ #github {
+    font-size: 37px;
+    margin-left: 5px;
+}
+     
 
  /* Image */
 
