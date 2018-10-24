@@ -73,11 +73,10 @@ button {
  .about-icons {
      font-size: 70px;
  }
+
  #linkedin {
-     font-size: 30px;
-     margin-left: 65px;
-     margin-top: 5px;
-     border: 1px solid black;
+     font-size: 40px;
+     margin-top: -15px;
      
 
  }
@@ -89,8 +88,9 @@ button {
     width: 20%;
 }
 
-#screenshot {
+.screenshot {
     height: 320px;
+    margin-top: 14px;
     
     
 }
@@ -109,4 +109,13 @@ button {
 
 .col {
     margin-bottom: 30px;
+}
+/* hyperlinks */
+
+button>a {
+    color: whitesmoke;
+}
+
+button>a:hover {
+    color: gray;
 }

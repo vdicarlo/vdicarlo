@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Victor DiCarlo Website Portfolio">
+
+    <meta name="keywords" content="HTML,CSS,JavaScript,Portfolio,Victor,DiCarlo">
     
     <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
 
@@ -16,35 +19,37 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="ttps://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
 
-    <title>Document</title>
+    <title>Victor DiCarlo</title>
 </head>
 <body>
 <div class="first">
     <h1>VICTOR DICARLO</h1>
     <div class="list-group">
-            <button type="button" class="menu-item btn-link">
-             About Me:
+            <button type="button" class="menu-item btn-link"><a href="#about">
+             About Me</a>
             </button>
-            <button type="button" class="menu-item btn-link">Projects</button>
-            <button type="button" class="menu-item btn-link">Skills</button>
-            <button type="button" class="menu-item btn-link">Contact</button>
+            <button type="button" class="menu-item btn-link"><a href="#projects">Projects</a></button>
+            <button type="button" class="menu-item btn-link"><a href="#skills">Skills</a></button>
+            <button type="button" class="menu-item btn-link"><a href="#contact">Contact</a></button>
        
     </div>
 </div>  
     <div class="second">
-       <h2> About Me:</h2>
+      <br>
+       <h2 id="about"> About Me:</h2>
        <img class="avatar" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c0.0.480.480/p480x480/18425514_1305123976239543_4404004700993611661_n.jpg?_nc_cat=101&_nc_ht=scontent-lax3-1.xx&oh=1079be97e622d0061b91804f19dc882b&oe=5C87FAB8">
        <br>
        <br>
-        <p id="aboutMe">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+        <p id="aboutMe">Digital Marketing professional with over 6 years of experience. I specialize in Content Management, Front-End Development, Marketing Automation/Email Marketing and Project Management. I also possess a Bachelor of Arts degree in Marketing Communications from California State University, Fullerton.</p>
         <div class="container">
                 <div class="row">
                   <div class="col">
-                        <i class="fas fa-project-diagram about-icons"></i>
+                        <i id="projects" class="fas fa-project-diagram about-icons"></i>
                         <br>
                     Projects:
                     <br>
-                    <img id="screenshot" src="images/screenshot.png">
+                    <a href="https://victor949.portfoliobox.net/">
+                    <img class="screenshot"  src="images/screenshot.png"></a>
                     
                   </div>
                   <div class="col">
@@ -77,12 +82,12 @@
         <div class="col-md-6 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase">Contact Info:</h5>
-          <p>Email: vdicarlo09@gmail.com
+          <h5 id="contact" class="text-uppercase">Contact Info:</h5>
+          <p>Email: <a href="mailto:vdicarlo09@gmail.com">vdicarlo09@gmail.com</a>
           <br>Phone: 949-395-2799
           <br>
         </p>
-            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/victordicarlo/"><i class="fab fa-linkedin" id="linkedin"></i></a>
 
         </div>
         <!-- Grid column -->
@@ -95,7 +100,7 @@
             <!-- Links -->
             <h5 class="text-uppercase"><i class="fas fa-code footer-icon"></i></h5>
 
-            <ul class="list-unstyled">
+            <ul id="skills" class="list-unstyled">
               <li>
                 HTML
               </li>
@@ -172,6 +177,5 @@
 
   </footer>
   <!-- Footer -->
-  
 </body>
 </html>
